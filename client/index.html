@@ -11,12 +11,70 @@
 
 <body>
     <div id="app">
+        <div class="hero">
+            <h1>ChatGPT clone</h1>
+
+            <div class="desc">
+
+                <div class="item itemm"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+</svg>
+                    <h4>
+                        Examples
+                    </h4>
+                </div>
+                <div class="item itemm"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+</svg>
+                    <h4>
+                        Capabilities
+                    </h4>
+                </div>
+                <div class="item itemm"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+</svg>
+                    <h4>
+                        Limitations
+                    </h4>
+                </div>
+                <div class="item">
+                    <p>Explain quantum computing in simple terms</p>
+                </div>
+                <div class="item">
+                    <p>Remembers what user said earlier in the conversation</p>
+                </div>
+                <div class="item">
+                    <p>May occasionally generate incorrect information</p>
+                </div>
+                <div class="item">
+                    <p>Got any creative ideas for a 10 year old’s birthday?</p>
+                </div>
+                <div class="item">
+                    <p>Allows user to provide follow-up corrections</p>
+                </div>
+                <div class="item">
+                    <p>May occasionally produce harmful instructions or biased content</p>
+                </div>
+                <div class="item">
+                    <p>How do I make an HTTP request in Javascript?</p>
+                </div>
+                <div class="item">
+                    <p>Trained to decline inappropriate requests</p>
+                </div>
+                <div class="item">
+                    <p>Limited knowledge of world and events after 2021</p>
+                </div>
+            </div>
+        </div>
         <div id="chat_container"></div>
         <form>
             <textarea name="prompt" cols="1" rows="1" placeholder="Ask Codex ...">
         </textarea>
             <button type="submit"><img src="assets/send.svg" alt="" /></button>
         </form>
+        <p class="about">Codex || A ChatGpt clone made by :
+            <a href="https://github.com/YOSEF-CODER">Yosef Lakew</a>
+        </p>
     </div>
     <script type="module" src="/script.js"></script>
 </body>
